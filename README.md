@@ -1,7 +1,5 @@
 # 🛡️ Insurify — Parametric Income Protection for Q-Commerce Delivery Workers
 
-> **Guidewire DEVTrails 2026 | University Hackathon**
-> Phase 2 Submission | Team: FutureForge
 
 ---
 
@@ -485,51 +483,6 @@ flutter pub get
 flutter run
 ```
 
----
-
-## Development Plan
-
-### Phase 1 (Mar 4–20): Problem Understanding & System Design ✅
-
-- [x] Identified core problem: income loss due to external disruptions
-- [x] Defined scope: focus only on worker income protection
-- [x] Analyzed Q-commerce system vulnerabilities (dark store dependency, hyperlocal zones)
-- [x] Designed parametric insurance logic (external triggers + income gap)
-- [x] Finalized AI approach (risk model + income prediction)
-- [x] Defined fraud prevention strategy (GPS + activity verification)
-- [x] Selected mobile-first architecture
-- [x] Completed system architecture and README
-
-### Phase 2 (Mar 21–Apr 5): Core System Implementation ✅
-
-- [x] Built Flutter worker app (onboarding + OTP + policy dashboard + trigger flow)
-- [x] Built Flutter admin app (dashboard + analytics + zone risk + plan management)
-- [x] Implemented weekly insurance policy system (Basic / Standard / Pro)
-- [x] Developed dynamic premium engine (zone risk + weather + tenure factors)
-- [x] Built parametric trigger engine with node-cron scheduling
-- [x] Implemented worker activity verification (GPS zone detection)
-- [x] Developed automated claim pipeline (trigger → verification → payout)
-- [x] Integrated basic fraud detection (duplicate prevention + GPS flags)
-- [x] Deployed backend on Render with PostgreSQL cloud database
-- [x] Built segmented plan comparison UI (Weekly Premium + Comparison tab)
-- [x] Implemented auto demo trigger simulation (fires 5–10s after login)
-- [x] Built full payout animation flow (step-by-step visual confirmation)
-- [x] Created PDF policy certificate generator
-- [x] Deployed both Android APKs for live demo
-
-### Phase 3 (Apr 5–17): Intelligence, Security & Demo ✅
-
-- [x] Integrated real weather APIs (OpenWeatherMap — current + 5-day forecast)
-- [x] Implemented XGBoost risk model with 600 training samples (91.67% accuracy)
-- [x] Trained on 6 features: rain, flood, AQI, dark store outages, wind speed, extreme heat
-- [x] Connected Razorpay payment gateway (test mode) with UPI payouts
-- [x] Built 4-layer fraud detection (weather cross-check + behavioral + GPS spoofing + response tiers)
-- [x] Built admin analytics dashboard (loss ratio, claims breakdown, 5-day predictive risk)
-- [x] Moved all thresholds to dynamic `app_config` table (zero hardcoded business logic)
-- [x] Removed all hardcoded zone fallbacks across 15+ Flutter files
-- [ ] Prepare final pitch presentation
-
----
 
 ## 📱 Download & Try
 
@@ -593,16 +546,6 @@ The platform adopts a sustainable and flexible pricing strategy:
 
 ---
 
-## 👥 Team — FutureForge
 
-| 👤 Name | 💼 Role |
-|--------|--------|
-| **Shreya Singh** | Backend + AI/ML *(Risk Model & Income Prediction)* |
-| **Prince Kumar** | Backend + AI/ML *(API Development + Model Integration)* |
-| **Kartik Srivastava** | Frontend + AI Integration *(Mobile App + API Integration)* |
-| **Ameya Tharkral** | Frontend + UI/UX *(App Design + User Experience)* |
-| **Abhinav Tripathi** | Frontend + AI Integration *(Dashboard + Data Visualization)* |
-
----
 
 > Built with ❤️ for India's gig workers | Guidewire DEVTrails 2026
